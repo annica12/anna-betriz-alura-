@@ -1,4 +1,35 @@
 :root{
     --branco-principal:  #FFFFFF;
-    --amarelo-secundario: #FFE91F 
+    --amarelo-secundario: #FFE91F ;
     --botao-azul: #4EBFE9;
+--cor-de-fundo: #383D58;
+} 
+
+body{
+     background-color: var(--cor-de-fundo); 
+     color: var(--branco-principal);
+}
+
+{
+margin: 0;
+padding: 0;
+}
+
+.principal{
+    background-image: url(img/escola.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.contain{
+    height: 100vh;
+    display: grid;
+}
+
+.container_botao{
+    background-color: var(--botao-azul);
+    border-radius: 20px;
+    padding: lem;
+    color: var(--preto-principal);
+    display: block;
+}
