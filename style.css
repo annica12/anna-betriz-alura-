@@ -25,6 +25,23 @@ padding: 0;
     height: 100vh;
     display: grid;
 }
+.principal {
+    background-image: url("img/Background.png");
+}
+<body>
+    <section class="container principal">
+        <h1>Com o Combo+, você pode aproveitar a Alura+ e o Alura Língua por um preço único.</h1>
+        <img src="img/Combo.png" alt="O combo+ é a junção do alura+ e o alura língua">
+    </section>
+</body>
+.container {
+    height: 100vh;
+}
+.principal {
+    background-image: url("img/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 
 .container_botao{
     background-color: var(--botao-azul);
@@ -32,4 +49,15 @@ padding: 0;
     padding: lem;
     color: var(--preto-principal);
     display: block;
+}
+.container__botao {
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco-principal);
+    display: block;
+}
+.container {
+    height: 100vh;
+    display: grid;
 }
