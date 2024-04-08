@@ -4,23 +4,19 @@
     --botao-azul: #4EBFE9;
 --cor-de-fundo: #383D58;
 } 
-
 body{
      background-color: var(--cor-de-fundo); 
      color: var(--branco-principal);
 }
-
 {
 margin: 0;
 padding: 0;
 }
-
 .principal{
     background-image: url(img/escola.jpeg);
     background-repeat: no-repeat;
     background-size: contain;
 }
-
 .contain{
     height: 100vh;
     display: grid;
@@ -50,6 +46,7 @@ padding: 0;
     color: var(--preto-principal);
     display: block;
 }
+}
 .container__botao {
     background-color: var(--botao-azul);
     border-radius: 5px;
@@ -60,4 +57,11 @@ padding: 0;
 .container {
     height: 100vh;
     display: grid;
+}
+:root {
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #00030C;
+    --fonte-principal: 'Inter';
 }
